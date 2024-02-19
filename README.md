@@ -52,12 +52,6 @@ class todo:
                 f.truncate()
             self.main_text.delete(delete_)
 
-            # with open('data.txt', 'r') as file:
-            #     read=file.readlines()
-            #     for i in read:
-            #         ready=i.split()
-            #         self.main_text.insert(END,ready)
-            #     file.close()
 
         self.button=Button(self.root,text='ADD',font='sarif 20 bold italic',width=10,bd=5,bg='orange',fg='black',command=add)
         self.button.place(x=70,y=250)
